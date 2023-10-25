@@ -1,4 +1,4 @@
-//Calculates the time it takes for a population to grow given a starting and ending value
+// Calculates the time it takes for a population to grow given a starting and ending value
 #include <stdio.h>
 
 // Prompt User for Population Size
