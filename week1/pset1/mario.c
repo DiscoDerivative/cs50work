@@ -1,6 +1,8 @@
 #include <stdio.h>
 
+// Gets the size for the dimensions of the square
 int get_size(void);
+// Prints the square (grid)
 void print_grid(int size);
 
 int main(void)
