@@ -1,15 +1,16 @@
+//Calculates the time it takes for a population to grow given a starting and ending value
 #include <stdio.h>
 
-//Prompt User for Population Size
+// Prompt User for Population Size
 int enterPopulationStart(void);
-//Prompt User for Ending Population Size
+// Prompt User for Ending Population Size
 int enterFinalPopulation(void);
-//Calculate Number of Years Reauired for Population to Reach End Size
+// Calculate Number of Years Reauired for Population to Reach End Size
 int findFinalPopulationInYears(void);
-//Print Number of Years Required for Population to Reach End Size
+// Print Number of Years Required for Population to Reach End Size
 void printFinalPopulationInYears(void);
 
-//Global Variables
+// Global Variables
 int startingValue;
 int endingValue;
 int year;
