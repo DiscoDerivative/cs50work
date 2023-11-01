@@ -7,8 +7,8 @@ void printArray (int array[], int size);
 
 int main(void)
 {
-    int data[] = {3, 2, 1};
-    int size = 3;
+    int data[] = {1, 3, 2, 5};
+    int size = 4;
     selectionSort(data, size);
     printArray(data, size);
 }
@@ -34,10 +34,10 @@ void selectionSort (int array[], int size)
                 printf("Value: %d at Index: %d is less than Value: %d at index: %d\n",array[j], j, array[minimunIndex], minimunIndex);
                 minimunIndex = j;
             }
-
-            printf("Swapping minimum number: %d with %d\n", array[minimunIndex], array[i]);
-            swap(&array[minimunIndex], &array[i]);
         }
+
+                    printf("Swapping minimum number: %d with %d\n", array[minimunIndex], array[i]);
+            swap(&array[minimunIndex], &array[i]);
     }
 }
 
