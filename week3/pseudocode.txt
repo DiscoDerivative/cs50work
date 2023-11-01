@@ -1,0 +1,49 @@
+Imagine you’re at the beach and want to order
+a number of items from the snack bar. You have
+a limited amount of cash on you, and you want
+to get a total cost for your items before ordering.
+In snackbar.c you will complete two functions.
+First is add_items which will add at least the first
+4 items on the Beach Burger Shack menu. Then you will
+complete get_cost which will implement a linear search
+algorithm to search for each item youchoose, and return
+the corresponding price.
+
+Expected Output:
+Welcome to Beach Burger Shack!
+Choose from the following menu to order. Press enter when done.
+
+Burger: $9.50
+Vegan Burger: $11.00
+Hot Dog: $5.00
+Cheese Dog: $7.00
+Fries: $5.00
+Cheese Fries: $6.00
+Cold Pressed Juice: $7.00
+Cold Brew: $3.00
+Water: $2.00
+Soda: $2.00
+
+Enter a food item: _____
+Enter a food item: _____
+... -> if blank, just return 1
+
+Design
+
+Structure
+Name: Menu 
+Member Variables: char item, int price
+
+Functions
+Greeting - welcome message
+
+Menu - display item and price (loop through array)
+
+Add item - while loop (input < 4 or input is empty)
+
+Get cost - search through
+
+Main
+
+Array of items
+Array of prices

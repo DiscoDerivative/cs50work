@@ -1,0 +1,18 @@
+The main function initializes the temps array,
+ calls the sort_cities function and prints out
+  the array in sorted order. You will use an O(n2)
+   sorting algorithm of your choice (possibly bubble sort,
+    selection sort, or insertion sort) to sort the array by
+     temperature, in descending order.
+
+Design 
+
+Structure
+Name: AverageTemperature
+Member Variable: string city, int temperature
+
+Algorithm: Insertion Sort
+
+
+
+
