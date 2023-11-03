@@ -1,0 +1,2 @@
+when you ask the compiler for memory there isnt a guarantee it will be completely free
+always make sure to intialize arrays to 0 or some other value just incase

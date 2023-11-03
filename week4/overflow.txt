@@ -1,0 +1,3 @@
+stack overflow is when too many functions are called and the computer runs out of Memory
+heap overflow is when the program tries to access a place in memory its not supposed to
+both of these overflows are called buffer overflow

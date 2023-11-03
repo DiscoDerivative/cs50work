@@ -1,0 +1,7 @@
+Memory
+Stores data for the computer 
+
+Hexadecimal
+- System of counting that has 16 counting values
+- 0-9 A-F
+
