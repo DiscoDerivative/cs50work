@@ -1,14 +1,24 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
-int main()
+int main(void)
 {
-    char hello[13] = "hello, world";
-    char empty[13];
+    char string[10];
+    printf("Enter string: ");
+    scanf("%s", &string);
+    printf("String entered: %s", string);
 
-   strcpy(empty, hello);
+    char *empty = malloc(strlen(string) + 1);
 
-    printf("original string: %s\n", hello);
-    printf("new string: %s\n", empty);
+    if (empty == NULL)
+    {
+        printf("Memory not allocated.");
+        return 1;
+    }
+
+    strcpy(empty, string);
+    printf("Copied String: %s", *empty);
     
+    free(empty);
 }
