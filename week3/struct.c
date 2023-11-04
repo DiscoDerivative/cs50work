@@ -3,18 +3,17 @@
 
 typedef struct
 {
-    char name[8];
+    char name[9];
     int age;
-}Name;
+}Person;
 
 
 int main(void)
 {
-    Name margaret;
-    strcpy(margaret.name, "Margaret");
-    margaret.age = 19;
-    printf("%s\n", margaret.name);
-    printf("%d\n", margaret.age);
-
+    Person student = {"Margaret", 19};
+    strcpy(student.name, "Cole");
+    student.age = 23;
+    printf("%s\n", student.name);
+    printf("%d\n", student.age);
 }
 

@@ -1,0 +1,99 @@
+MY PROUD WORK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! https://github.com/margaret-ach
+
+Note: I will be testing with random50000.txt to find the big 0 for each sort.
+      Why? Because merge sort will be the fastest compared to selection and bubble sort.
+      Bubble sort and selection sort are debatable because both are in n^2 time.
+
+      I will be testing with sorted50000.txt to find the big omega of each sort.
+      Why? Because selection sort will have the slowest time compared to selection and bubble sort,
+      Merge sort will have a similar time to it's time when it's randomized (theta of n log n) and
+      bubble sort will be faster than merge sort.
+
+
+
+Time Complexity 
+
+Selection Sort: O(n^2), Ω(n^2) --> Θ (n^2)
+Bubble Sort: O(n^2), Ω(n)
+Merge Sort: O(n log (n)), Ω(n log n) --> Θ(n log n)
+
+Testing Times
+
+Random (50000)
+
+Sort 1:
+real: 0m13.211s, 0m12.586s, 0m12.388s
+user: 0m10.543s, 0m9.745s, 0m9.332s
+sys: 0m0.294s, 0m0.391s, 0m0.251s
+
+Sort 2: 
+real: 0m3.174s, 0m3.164s, 0m2.343s
+user: 0m0.165s, 0m0.197s, 0m0.116s
+sys: 0m0.261s, 0m0.259s, 0m0.284s
+
+Sort 3:
+real: 0m6.073s, 0m6.005s, 0m6.948s
+user: 0m3.353s, 0m3.559s, 0m3.992s
+sys: 0m0.303s, 0m0.303s, 0m0.304s
+
+Average
+
+Real: 12.728, 2.894, 6.354
+User: 9.870, 0.159, 3.635
+Sys: 0.312, 0.268, 0.303
+
+User + Sys: 10.182, 0.427, 3.938
+
+Fastest to Slowest: Sort 2, Sort 3, Sort 1
+
+Thoughts: Assuming Sort 2 is Merge sort since it's the fastest sort to organize through a randomized set.
+
+Sorted (50000)
+
+Sort1
+
+Real: 0m2.139, 0m3.008s, 0m1.781s
+User: 0m0.148s, 0m0.127s, 0m0.149s
+Sys: 0m0.289s, 0m0.308s, 0m0.228s
+
+Sort2
+Real: 0m2.642s, 0m2.839s, 0m2.992
+User: 0m0.128s, 0m0.163s, 0m0.160
+Sys: 0m0.335s, 0m0.347s, 0m0.330
+
+Sort3  
+Real: 0m7.123s, 0m6.135s, 0m7.551s
+User: 0m4.382s, 0m3.717s, 0m4.108s
+Sys: 0m0.415s, 0m0.253s, 0m0.353s
+
+Average
+Sort1: 2.309, 0.141, 0.275
+Sort2: 2.824, 0.150, 0.337
+Sort3: 6.936, 4.069, 0.340
+
+User + Sys: 9.760, 4.219, 0.677
+
+Fastest to Slowest: Sort3, Sort2, Sort1
+
+Thoughts: According to time complexity,
+Sort3 = Bubble Sort
+Sort2 = Merge Sort
+Sort1 = Selection Sort
+
+sort1 uses: Selection Sort
+
+How do you know?: 
+Sort1 uses selection sort because it has the slowest time in it's best case (big Ω of n^2) compared to sort2 and sort3, which have a Ω of n log n and Ω of n respectively.
+
+sort2 uses: Merge Sort
+
+How do you know?:
+Sort 2 uses Merge Sort because it's the fastest compared to selection sort and bubble sort in it's worst case (big O).
+Another reason is because in it's best case (big Ω of n log n), it's faster than selection sort (big Ω of n^2) but slower than bubble sort (big Ω of n).
+
+sort3 uses: Bubble Sort
+
+How do you know?:
+
+In it's best case, it's faster than selection sort and merge sort (big O of n)
+
