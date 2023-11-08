@@ -1,0 +1,20 @@
+data structures are forms of organizing memory
+abstract data structures: conceptually imagine
+
+queues are a form of abstract data structures
+they follow a first in first out principle
+example: waiting in a line at an amusement park.
+first person gets to go on the ride first.
+last person gets to go on the ride last.
+
+queues have specific actions associated with them.
+an item can be enqueued and dequeued when it reaches the front of the line.
+
+queues contrast a stack.
+a stack follows the last in first out principle
+example: stacking trays in a cafetieria.
+a tray that is placed in stack last is the first one that gets picked up.
+
+stacks have specific actions associated with them.
+push places something on top of a stack and pop removes something from the top of the stack
+
